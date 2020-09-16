@@ -1,0 +1,3 @@
+include ':saveLogs'
+include ':app'
+rootProject.name = "CustomLogger"
