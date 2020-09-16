@@ -19,7 +19,7 @@ Step 1. Add the JitPack repository to your build file
   
   
   	dependencies {
-	        implementation 'com.github.abhi10jul:SaveLogsInStorage:1.0.0'
+	        implementation 'com.github.abhi10jul:SaveLogsInStorage:1.0.1'
 	}
   
   
