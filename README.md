@@ -3,6 +3,8 @@ If you want to save logs in your local storage and access or check logs when the
 
 [![](https://jitpack.io/v/abhi10jul/SaveLogsInStorage.svg)](https://jitpack.io/#abhi10jul/SaveLogsInStorage)
 
+Check this store on Medium [!(https://medium.com/@asrivastava074/save-logs-in-storage-from-android-application-6acc56c4c72a)]
+
 Step 1. Add the JitPack repository to your build file
 
 
