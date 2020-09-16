@@ -23,15 +23,15 @@ Step 1. Add the JitPack repository to your build file
 	}
   
   
-Step 3. Add these variables in activity or fragment gloabally 
+Step 3. Add these variables in Activity or Fragment globally
 	  
 	private static final int PERMISSION_REQUEST_CODE = 101;
 	public SaveLogsInStorage saveLoggerInstance;
 	public static final String directoryName = "CustomLogger";
 	  
-Optional: You can also declare directoryName in constant file or static variable because If you want to add like this you can easily use same parameter in SaveLogsInStorage constructor
+Optional: You can also declare directoryName in a constant file or static variable because If you want to add like this you can easily use the same parameter in the SaveLogsInStorage constructor
 
-Step 4. ask write storage permission to user 
+Step 4. Ask to write storage permission to User
 
 	private boolean askWriteStoragePermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -60,7 +60,7 @@ Step 4. ask write storage permission to user
     }
     
     
-  Step 6: initiliase logger
+  Step 6: Initialise logger
   
   	 private void initialisedLogger() {
         /*
@@ -75,6 +75,12 @@ Step 4. ask write storage permission to user
   	  }
 	  
 	
+<h2 id="step7">Step 7 :eyes:</h2>
+
+Do not repeat Step 1 to 5 each Activity or fragment. These implement one time in Launching Activity or First Activity.
+This is optional If you want to add all activities You can add these steps. These steps give us the benefit to check permission all time
+
+
 <h2 id="examples">Examples :eyes:</h2>
 Link [![](https://github.com/abhi10jul/SaveLogsInStorage/blob/master/app/src/main/java/com/blogspot/abhiandroidknowledge/customlogger/LauchingActivity.java)]
 
